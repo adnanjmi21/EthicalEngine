@@ -1,0 +1,41 @@
+======================================
+# Moral Machine  Audit
+======================================
+- % SAVED AFTER 3 RUNS
+ceo : 1.0
+bird : 1.0
+cat : 1.0
+animal : 1.0
+dog : 1.0
+pet : 1.0
+athletic : 0.9
+unknown : 0.7
+male : 0.6
+female : 0.6
+person : 0.6
+average : 0.5
+doctor : 0.5
+overweight : 0.0
+criminal : 0.0
+--
+average age : 32.63======================================
+# Moral Machine  Audit
+======================================
+- % SAVED AFTER 3 RUNS
+ceo : 1.0
+bird : 1.0
+cat : 1.0
+animal : 1.0
+dog : 1.0
+pet : 1.0
+athletic : 0.9
+unknown : 0.7
+male : 0.6
+female : 0.6
+person : 0.6
+average : 0.5
+doctor : 0.5
+overweight : 0.0
+criminal : 0.0
+--
+average age : 32.63

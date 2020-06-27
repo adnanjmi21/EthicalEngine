@@ -1,0 +1,271 @@
+======================================
+# Moral Machine  Audit
+======================================
+- % SAVED AFTER 3 RUNS
+ceo : 1.0
+bird : 1.0
+cat : 1.0
+animal : 1.0
+dog : 1.0
+pet : 1.0
+athletic : 0.9
+unknown : 0.7
+male : 0.6
+female : 0.6
+person : 0.6
+average : 0.5
+doctor : 0.5
+overweight : 0.0
+criminal : 0.0
+--
+average age : 32.63======================================
+# Moral Machine  Audit
+======================================
+- % SAVED AFTER 3 RUNS
+ceo : 1.0
+bird : 1.0
+cat : 1.0
+animal : 1.0
+dog : 1.0
+pet : 1.0
+athletic : 0.9
+unknown : 0.7
+male : 0.6
+female : 0.6
+person : 0.6
+average : 0.5
+doctor : 0.5
+overweight : 0.0
+criminal : 0.0
+--
+average age : 32.63======================================
+# Moral Machine  Audit
+======================================
+- % SAVED AFTER 3 RUNS
+ceo : 1.0
+bird : 1.0
+cat : 1.0
+animal : 1.0
+dog : 1.0
+pet : 1.0
+athletic : 0.9
+unknown : 0.7
+male : 0.6
+female : 0.6
+person : 0.6
+average : 0.5
+doctor : 0.5
+overweight : 0.0
+criminal : 0.0
+--
+average age : 32.63
+======================================
+# User Audit
+======================================
+- % SAVED AFTER 12 RUNS
+overweight : 0.6
+doctor : 0.4
+female : 0.4
+unknown : 0.3
+person : 0.3
+athletic : 0.3
+male : 0.3
+animal : 0.3
+ceo : 0.3
+dog : 0.3
+average : 0.2
+pet : 0.2
+--
+average age : 47.22
+======================================
+# User Audit
+======================================
+- % SAVED AFTER 12 RUNS
+doctor : 0.6
+overweight : 0.5
+female : 0.4
+pet : 0.3
+athletic : 0.3
+animal : 0.3
+unknown : 0.3
+person : 0.3
+average : 0.2
+male : 0.2
+dog : 0.2
+ceo : 0.0
+--
+average age : 36.31
+======================================
+# User Audit
+======================================
+- % SAVED AFTER 3 RUNS
+overweight : 1.0
+doctor : 0.8
+animal : 0.3
+female : 0.3
+pet : 0.3
+unknown : 0.2
+male : 0.2
+person : 0.2
+average : 0.2
+athletic : 0.1
+ceo : 0.0
+dog : 0.0
+--
+average age : 30.74
+======================================
+# User Audit
+======================================
+- % SAVED AFTER 11 RUNS
+pregnant : 0.2
+dog : 0.1
+female : 0.1
+average : 0.1
+ceo : 0.1
+person : 0.1
+unknown : 0.1
+cat : 0.1
+unspecified : 0.1
+animal : 0.1
+male : 0.1
+athletic : 0.1
+pet : 0.1
+unemployed : 0.0
+doctor : 0.0
+--
+average age : 38.58
+======================================
+# CSV Audit
+======================================
+- % SAVED AFTER 10 RUNS
+ceo : 1.0
+homeless : 0.8
+doctor : 0.8
+cat : 0.7
+overweight : 0.7
+ferret : 0.7
+pet : 0.7
+animal : 0.6
+male : 0.6
+person : 0.6
+average : 0.6
+unemployed : 0.6
+female : 0.6
+athletic : 0.6
+dog : 0.5
+unknown : 0.5
+criminal : 0.3
+--
+average age : 61.26
+======================================
+# CSV Audit
+======================================
+- % SAVED AFTER 10 RUNS
+ceo : 1.0
+homeless : 0.8
+doctor : 0.8
+cat : 0.7
+overweight : 0.7
+ferret : 0.7
+pet : 0.7
+animal : 0.6
+male : 0.6
+person : 0.6
+average : 0.6
+unemployed : 0.6
+female : 0.6
+athletic : 0.6
+dog : 0.5
+unknown : 0.5
+criminal : 0.3
+--
+average age : 61.26
+======================================
+# CSV Audit
+======================================
+- % SAVED AFTER 10 RUNS
+ceo : 1.0
+homeless : 0.8
+doctor : 0.8
+cat : 0.7
+overweight : 0.7
+ferret : 0.7
+pet : 0.7
+animal : 0.6
+male : 0.6
+person : 0.6
+average : 0.6
+unemployed : 0.6
+female : 0.6
+athletic : 0.6
+dog : 0.5
+unknown : 0.5
+criminal : 0.3
+--
+average age : 61.26
+======================================
+# User Audit
+======================================
+- % SAVED AFTER 7 RUNS
+pregnant : 0.2
+bird : 0.1
+overweight : 0.1
+average : 0.1
+unspecified : 0.1
+male : 0.1
+female : 0.1
+athletic : 0.1
+person : 0.1
+pet : 0.1
+unemployed : 0.1
+animal : 0.1
+unknown : 0.1
+dog : 0.1
+--
+average age : 34.21
+======================================
+# User Audit
+======================================
+- % SAVED AFTER 5 RUNS
+unemployed : 0.5
+ceo : 0.4
+dog : 0.4
+pregnant : 0.3
+overweight : 0.3
+athletic : 0.3
+unknown : 0.2
+female : 0.2
+unspecified : 0.2
+person : 0.2
+homeless : 0.2
+animal : 0.2
+pet : 0.1
+cat : 0.1
+male : 0.1
+average : 0.1
+doctor : 0.1
+--
+average age : 38.08
+======================================
+# CSV Audit
+======================================
+- % SAVED AFTER 1024 RUNS
+doctor : 0.7
+ceo : 0.7
+unemployed : 0.7
+homeless : 0.6
+athletic : 0.6
+overweight : 0.6
+male : 0.6
+person : 0.6
+female : 0.6
+average : 0.6
+unknown : 0.6
+ferret : 0.6
+pet : 0.6
+animal : 0.6
+cat : 0.5
+criminal : 0.5
+dog : 0.5
+--
+average age : 64.31

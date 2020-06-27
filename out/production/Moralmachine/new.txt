@@ -1,0 +1,47 @@
+
+======================================
+# CSV Audit
+======================================
+- % SAVED AFTER 1024 RUNS
+doctor : 0.7
+ceo : 0.7
+unemployed : 0.7
+homeless : 0.6
+athletic : 0.6
+overweight : 0.6
+male : 0.6
+person : 0.6
+female : 0.6
+average : 0.6
+unknown : 0.6
+ferret : 0.6
+pet : 0.6
+animal : 0.6
+cat : 0.5
+criminal : 0.5
+dog : 0.5
+--
+average age : 64.31
+======================================
+# CSV Audit
+======================================
+- % SAVED AFTER 10000 RUNS
+ceo : 0.7
+doctor : 0.7
+homeless : 0.7
+athletic : 0.7
+unemployed : 0.6
+male : 0.6
+person : 0.6
+female : 0.6
+overweight : 0.6
+average : 0.6
+unknown : 0.6
+pet : 0.5
+dog : 0.5
+ferret : 0.5
+animal : 0.5
+cat : 0.5
+criminal : 0.5
+--
+average age : 64.12
