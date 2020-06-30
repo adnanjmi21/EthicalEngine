@@ -3,7 +3,7 @@
  *
  * Enums Gender,BodyType
  *
- * @author
+ * @author Adnan
  */
 package ethicalengine;
 
@@ -18,16 +18,32 @@ public abstract class Character {
     private int age;
     private Gender gender;
     private BodyType bodyType;
+
+    /**
+     * parameterized constructor
+     * @param age
+     * @param gender
+     * @param bodyType
+     */
     public Character(int age,Gender gender,BodyType bodyType){
         this.age=age;
         this.gender=gender;
         this.bodyType=bodyType;
     }
+
+    /**
+     * copy constructor
+     * @param c
+     */
     public Character(Character c){
         this.age=c.age;
         this.gender=c.gender;
         this.bodyType=c.bodyType;
     }
+
+    /**
+     * default constructor
+     */
     public Character(){
         this.age=0;
         this.gender=Gender.UNKNOWN;

@@ -6,8 +6,9 @@
 package ethicalengine;
 
 /**
+ * Scenario Generator
  *
- * @author
+ * @author:Adnan
  */
 import java.util.ArrayList;
 import java.util.Random;
@@ -50,14 +51,52 @@ public class ScenarioGenerator {
         this.seeds = seeds;
         random.setSeed(seeds);
     }
+
+    /**
+     * Parameterized constructor
+     * @param seeds
+     * @param passengerCountMinimum
+     * @param passengerCountMaximum
+     * @param pedestrianCountMinimum
+     * @param pedestrianCountMaximum
+     * @param MIN_ANIMAL
+     * @param MAX_ANIMAL
+     */
     public ScenarioGenerator(long seeds, int passengerCountMinimum, int passengerCountMaximum, int pedestrianCountMinimum, int pedestrianCountMaximum, int MIN_ANIMAL, int MAX_ANIMAL) {
+        random = new Random();
         this.seeds = seeds;
+        random.setSeed(seeds);
         this.passengerCountMinimum = passengerCountMinimum;
         this.passengerCountMaximum = passengerCountMaximum;
         this.pedestrianCountMinimum = pedestrianCountMinimum;
         this.pedestrianCountMaximum = pedestrianCountMaximum;
         this.MIN_ANIMAL = MIN_ANIMAL;
         this.MAX_ANIMAL = MAX_ANIMAL;
+    }
+
+    /**
+     *  Parameterized constructor
+     * @param seeds
+     * @param passengerCountMinimum
+     * @param pedestrianCountMinimum
+     * @param passengerCountMaximum
+     */
+    public ScenarioGenerator(long seeds, int passengerCountMinimum,int passengerCountMaximum ,int pedestrianCountMinimum, int pedestrianCountMaximum) {
+        random = new Random();
+        this.seeds = seeds;
+        random.setSeed(seeds);
+        if (passengerCountMinimum >= passengerCountMaximum) {
+            System.out.println("Warning! minimum number of passenger should be less than maximum");
+            passengerCountMinimum = passengerCountMaximum - 1;
+        }
+        if (pedestrianCountMinimum >= pedestrianCountMaximum) {
+            System.out.println("Warning! minimum number of passenger should be less than maximum");
+            pedestrianCountMinimum = pedestrianCountMaximum - 1;
+        }
+        this.passengerCountMinimum = passengerCountMinimum;
+        this.passengerCountMaximum = passengerCountMaximum;
+        this.pedestrianCountMinimum = pedestrianCountMinimum;
+        this.pedestrianCountMaximum = pedestrianCountMaximum;
     }
     public int getPassengerCountMin() {
         return passengerCountMinimum;
@@ -106,6 +145,11 @@ public class ScenarioGenerator {
     public void setMAX_ANIMAL(int MAX_ANIMAL) {
         this.MAX_ANIMAL = MAX_ANIMAL;
     }
+
+    /**
+     * method generate random scenarios
+     * @return
+     */
     public Scenario generate() {
         ArrayList<Person> passengers;
         ArrayList<Person> pedestrians;
@@ -156,7 +200,7 @@ public class ScenarioGenerator {
         //return null;
     }
 
-    private ArrayList<Animal> getRandomAnimalArray(int num) {
+    public ArrayList<Animal> getRandomAnimalArray(int num) {
         ArrayList<Animal> randomeList=new ArrayList<Animal>();
         for (int i = 0; i < num; i++) {
             randomeList.add(getRandomAnimal());
@@ -164,7 +208,7 @@ public class ScenarioGenerator {
         return randomeList;
     }
 
-    private Animal getRandomAnimal() {
+    public Animal getRandomAnimal() {
         //Animal anm = new Animal();
 
         int Age = 0;
@@ -210,6 +254,12 @@ public class ScenarioGenerator {
             return "senior";
         }
     }
+
+    /**
+     * get random array of persons
+     * @param num
+     * @return
+     */
     public ArrayList<Person> getRandomPersonArray(int num) {
         ArrayList<Person> randomeList=new ArrayList<>();
         for (int i = 0; i < num; i++) {
@@ -240,6 +290,10 @@ public class ScenarioGenerator {
         return min + diff;
     }
 
+    /**
+     * Generate random person object
+     * @return
+     */
     public Person getRandomPerson() {
         //Random r=new Random(42);
         Person.Profession p = null;

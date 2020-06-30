@@ -61,21 +61,21 @@ public class Animal extends Character {
         String s = "";
         s += Species + " ";
         if (pet) {
-            s += "Pet ";
+            s += "is Pet ";
         }
 
-        if (!"".equals(getBodyType())) {
+        /*if (!"".equals(getBodyType())) {
             s += this.getBodyType().toString().toLowerCase() + " ";
         }
 
 
         if (!"".equals(getGender())) {
             s += " " + getGender().toString().toLowerCase() + " ";
-        }
+        }*/
         if (this.isPregnant) {
             s += " pregnant ";
         }
-        return s;
+        return s.replaceAll("\\s+"," ").trim();
     }
 
     public boolean getPregnant() {
